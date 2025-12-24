@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: home
 title: Bz-Black | Algorithm Notes
 ---
 
 # Bz-Black
 
-👋 Hi，我在这里记录算法学习笔记  
-- 《算法（第4版）》阅读笔记  
-- LeetCode 刷题总结  
-- DFS / BFS / 树 / 图  
+👋 Hi，我在这里记录算法学习笔记
 
-👉 第一篇：DFS 从算法书到 LeetCode（马上更新）
+## 📚 最新文章
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
